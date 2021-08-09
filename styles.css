@@ -1,0 +1,124 @@
+body {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/****circle and all*****/
+.overlay {
+    background: url("logos/green banner trans.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+    height:100vh;
+}
+#outer {
+    background: url("logos/images banner.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed; 
+}
+
+
+
+/*********************navbar*****************/
+
+.header-scrolled {
+    background-color:rgb(49,70,73);
+    /* height:60px;  */
+}
+
+#trans-logo {
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    
+}
+.nav-link:hover{
+    text-decoration: none;
+    color:white;
+    
+}
+.nav-link {
+    color:white;
+    font-weight:bold;
+    font-size:1.2em;
+}
+.nav-scrolled {
+    color:rgb(220,179,116)!important;
+}
+
+
+
+
+
+/***animation of buttons***/
+.btn-5 {
+
+        width: 130px;
+        height: 40px;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration:none;
+        
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+         text-align: center;
+         vertical-align:center;
+        outline: none;
+      
+    width: 90px;
+    height: 40px;
+    
+    padding: 0;
+    border: none;
+    background:transparent;
+ /* background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);*/
+  }
+  .btn-5:hover {
+    color: white;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: white;
+   
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  .btn-5a {
+    color:rgb(220,179,116)!important;
+  }
+  .btn-5a:before,
+  .btn-5a:after {
+    color:rgb(220,179,116)!important;
+    background: rgb(220,179,116)!important;
+  }
+  .btn-5a:hover {
+    color:rgb(220,179,116)!important;
+  }
+
+ #inner {
+     margin-top:40vh;
+     position:absolute;
+ }

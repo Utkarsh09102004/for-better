@@ -1,0 +1,23 @@
+1)
+  taskbar (Home, About, Blogs, Events contact)
+  top right logo
+ 
+2)
+  ForBetter 
+  mission in brief
+
+3)
+  About ForBetter preview 
+  button to about us
+
+4)
+  blogs preview
+
+5) 
+  help counter (our impact)
+
+6) board member info section
+
+7) input data for contact
+8) footer
+
