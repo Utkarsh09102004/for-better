@@ -46,6 +46,12 @@ body {
     color:rgb(220,179,116)!important;
 }
 
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
 
 
 
@@ -151,6 +157,169 @@ body {
 
 
 
+/********** Impact ************/
+#impact {
+    width:102%;
+    
+    background-color:rgb(39, 77, 83);
+    text-align: center;
+    color:white;
+    
+
+}
+
+.impact-item {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.impact-item p {
+    font-size:2.8em;
+    margin-bottom:-7px;
+    
+    font-family: 'Bebas Neue', cursive;
+}
+.impact-item div {
+    font-size:1.2em;
+    margin-top:-5px;
+    padding-top:0px;
+}
+
+
+
+
+
+
+/***************** board members ***************/
+
+#meet {
+    color:black;
+    font-size:4em;
+    text-align:center;
+}
+
+figure.snip1104 {
+    position: relative;
+    overflow: hidden;
+    margin-bottom:50px;
+    min-width: 220px;
+    max-width: 310px;
+    max-height: 220px;
+    width: 100%;
+    background: rgb(39, 77, 83);
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    
+  }
+  
+  figure.snip1104 * {
+    
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  figure.snip1104 img {
+    max-width: 100%;
+    position: relative;
+    opacity: 0.4;
+  }
+  
+  figure.snip1104 figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  
+  figure.snip1104 h2 {
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    display: inline-block;
+    background: rgb(39, 77, 83);
+    -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    padding: 12px 5px;
+    margin: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  figure.snip1104 h2 span {
+    font-weight: 800;
+  }
+  
+  figure.snip1104:before {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #ffffff;
+    position: absolute;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: rotate(110deg) translateY(-50%);
+    transform: rotate(110deg) translateY(-50%);
+  }
+  
+  figure.snip1104 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+  }
+
+
+
+  figure.snip1104:hover img,
+figure.snip1104.hover img {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+figure.snip1104:hover h2,
+figure.snip1104.hover h2 {
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+}
+
+figure.snip1104:hover:before,
+figure.snip1104.hover:before {
+  -webkit-transform: rotate(110deg) translateY(-150%);
+  transform: rotate(110deg) translateY(-150%);
+}
+
+/* .board {
+    display:flex;
+    
+    flex-direction:row;
+    justify-content:space-evenly
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   /********** Large devices only lg**********/ 
@@ -158,13 +327,19 @@ body {
    #logo-outer {
        margin-left:40px;
        }
-   }
+   
 #sidenavlogo {
     visibility:hidden;
 }
+.board {
+    display:flex;
+    
+    flex-direction:row;
+    justify-content:space-evenly
+}
 
 
-
+}
 /********** Medium devices only md **********/ 
 @media (min-width: 768px) and (max-width: 991px) { 
     #inner p {
@@ -203,6 +378,13 @@ body {
 .margin-setter {
     margin-top:220%!important;
 }
+.board {
+    display:flex;
+    
+    flex-direction:row;
+    justify-content:space-evenly
+}
+
 }
 
 
@@ -252,6 +434,11 @@ body {
     }
     .margin-setter {
         margin-top:220%!important;
+    }
+    .board {
+        display:flex;
+        flex-direction:column;
+        align-items: center!important;
     }
 
 }
@@ -311,11 +498,16 @@ body {
 
     
     #inner {
-        margin-top:72%;
+        margin-top:76%;
         margin-left:4px;
     }
 
     #trans-logo{
         visibility:hidden;
+    }
+    .board {
+        display:flex;
+        flex-direction:column;
+        align-items: center!important;
     }
 }
