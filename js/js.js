@@ -131,5 +131,16 @@ let selectHeader = document.getElementById('header')
     document.addEventListener('scroll', logoScrolled)
 
 
-
+    let selectul = document.getElementById('ulo')
+  
+    const ulScrolled = () => {
+      if (window.scrollY > 100) {
+        selectul.classList.add('margin-setter')
+      } else {
+        selectul.classList.remove('margin-setter')
+      }
+    }
+    document.addEventListener('load', ulScrolled)
+    document.addEventListener('scroll', ulScrolled)
+  
     

@@ -160,7 +160,7 @@ body {
        }
    }
 #sidenavlogo {
-    display:none;
+    visibility:hidden;
 }
 
 
@@ -184,7 +184,7 @@ body {
     
        }
        #navbarSupportedContent  ul {
-          margin-top: 350%;
+          margin-top: 290%;
         
         
        }
@@ -193,6 +193,16 @@ body {
         width:100%;
         border-radius:0px;
 
+}
+#sidenavlogo {
+    visibility:visible;
+    margin-bottom:40px;
+    margin-left:30px;
+    
+}
+.margin-setter {
+    margin-top:220%!important;
+}
 }
 
 
@@ -212,7 +222,7 @@ body {
 
    }
    #navbarSupportedContent  ul {
-      margin-top: 350%;
+      margin-top: 290%;
     
     
    }
@@ -232,11 +242,17 @@ body {
        border-bottom: solid 1px white;
        width:100%;
        border-radius:0px;
+   }
       
-   }
-   #sidenavlogo {
-       margin-top:400%;
-   }
+       #sidenavlogo {
+        visibility:visible;
+        margin-bottom:40px;
+        margin-left:30px;
+        
+    }
+    .margin-setter {
+        margin-top:220%!important;
+    }
 
 }
 
@@ -258,13 +274,22 @@ body {
 
     }
      #navbarSupportedContent  ul {
-         margin-top: 350%;
+         margin-top: 290%;
  
  
       }
+      .margin-setter {
+        margin-top:220%!important;
+    }
      #navbarSupportedContent li {
     border-bottom: solid 1px white;
     width:100%;
     border-radius:0px;
+    }
+    #sidenavlogo {
+        visibility:visible;
+        margin-bottom:40px;
+        margin-left:30px;
+        
     }
 }
