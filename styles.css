@@ -184,12 +184,12 @@ body {
     
        }
        #navbarSupportedContent  ul {
-          margin-top: 290%;
+          margin-top: 300%;
         
         
        }
        #navbarSupportedContent li {
-        border-bottom: solid 1px white;
+        border-bottom: solid 1px rgb(220,179,116);
         width:100%;
         border-radius:0px;
 
@@ -197,7 +197,7 @@ body {
 #sidenavlogo {
     visibility:visible;
     margin-bottom:40px;
-    margin-left:30px;
+    margin-left:70px;
     
 }
 .margin-setter {
@@ -222,7 +222,7 @@ body {
 
    }
    #navbarSupportedContent  ul {
-      margin-top: 290%;
+      margin-top: 300%;
     
     
    }
@@ -239,7 +239,7 @@ body {
    }
 
    #navbarSupportedContent li {
-       border-bottom: solid 1px white;
+       border-bottom: solid 1px rgb(220,179,116);
        width:100%;
        border-radius:0px;
    }
@@ -247,7 +247,7 @@ body {
        #sidenavlogo {
         visibility:visible;
         margin-bottom:40px;
-        margin-left:30px;
+        margin-left:70px;
         
     }
     .margin-setter {
@@ -263,6 +263,7 @@ body {
 @media (max-width: 575px) { 
   #inner p {
       width:90vw;
+    
   }
 
     #navbarSupportedContent {
@@ -274,7 +275,7 @@ body {
 
     }
      #navbarSupportedContent  ul {
-         margin-top: 290%;
+         margin-top: 300%;
  
  
       }
@@ -282,14 +283,39 @@ body {
         margin-top:220%!important;
     }
      #navbarSupportedContent li {
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px rgb(220,179,116);
     width:100%;
     border-radius:0px;
     }
     #sidenavlogo {
         visibility:visible;
         margin-bottom:40px;
-        margin-left:30px;
+        margin-left:70px;
         
+    }
+    .overlay {
+        background: url("logos/for-mobile trans.png");
+        background-size: cover;
+        background-repeat:no-repeat;
+        
+        height:100vh;
+    }
+    #outer {
+        background: url("logos/for-mobile banner.png");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed; 
+    }
+
+    
+
+    
+    #inner {
+        margin-top:67%;
+        margin-left:4px;
+    }
+
+    #trans-logo{
+        visibility:hidden;
     }
 }

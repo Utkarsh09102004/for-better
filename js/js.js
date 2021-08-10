@@ -27,6 +27,10 @@ let selectHeader = document.getElementById('header')
     document.addEventListener('load', aboutScrolled)
     document.addEventListener('scroll', aboutScrolled)
 
+   
+   
+   
+   
     let selecthome = document.getElementById('home')
   
     const homeScrolled = () => {
@@ -39,6 +43,10 @@ let selectHeader = document.getElementById('header')
     document.addEventListener('load', homeScrolled)
     document.addEventListener('scroll', homeScrolled)
 
+  
+  
+  
+  
     let selectblogs = document.getElementById('blogs')
   
     const blogsScrolled = () => {
@@ -52,6 +60,10 @@ let selectHeader = document.getElementById('header')
     document.addEventListener('scroll', blogsScrolled)
 
     
+  
+  
+  
+  
     let selectevents = document.getElementById('events')
   
     const eventsScrolled = () => {
@@ -80,6 +92,9 @@ let selectHeader = document.getElementById('header')
     document.addEventListener('load', AboutScrolled)
     document.addEventListener('scroll', AboutScrolled)
 
+
+
+
     let selectHome = document.getElementById('Home')
   
     const HomeScrolled = () => {
@@ -92,6 +107,10 @@ let selectHeader = document.getElementById('header')
     document.addEventListener('load', HomeScrolled)
     document.addEventListener('scroll', HomeScrolled)
 
+
+
+
+
     let selectEvents = document.getElementById('Events')
   
     const EventsScrolled = () => {
@@ -103,6 +122,9 @@ let selectHeader = document.getElementById('header')
     }
     document.addEventListener('load', EventsScrolled)
     document.addEventListener('scroll', EventsScrolled)
+
+
+
 
     let selectBlogs = document.getElementById('Blogs')
   
@@ -122,7 +144,7 @@ let selectHeader = document.getElementById('header')
   
     const logoScrolled = () => {
       if (window.scrollY > 100) {
-        selectlogo.innerHTML="<img src='logos/fb-logo(sub).jpg' id='trans-logo' style='border-radius:0; width:100px; height:100px;'></img>"
+        selectlogo.innerHTML="<img src='logos/fb-logo(sub).jpg' id='trans-logo' style='border-radius:0; width:100px; height:100px; visibility:visible'></img>"
       } else {
         selectlogo.innerHTML="<img src='logos/logo(no-subtext).png' id='trans-logo'>"
       }
@@ -131,6 +153,9 @@ let selectHeader = document.getElementById('header')
     document.addEventListener('scroll', logoScrolled)
 
 
+    
+    
+    
     let selectul = document.getElementById('ulo')
   
     const ulScrolled = () => {
@@ -144,3 +169,4 @@ let selectHeader = document.getElementById('header')
     document.addEventListener('scroll', ulScrolled)
   
     
+   
