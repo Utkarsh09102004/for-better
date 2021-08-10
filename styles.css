@@ -119,6 +119,152 @@ body {
   }
 
  #inner {
-     margin-top:40vh;
+     margin-top:35vh;
      position:absolute;
+     margin-left:6vw;
  }
+
+ #inner h1 {
+     font-size:3em;
+     margin-bottom:0px;
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+     /* text-shadow: 1px 1px 1.5px rgb(95, 91, 91); */
+     
+     
+ }
+ #inner p {
+     width:52vw;
+     font-size:1.2em;
+     padding-top:0px;
+     color:rgb(183, 186, 197);
+ }
+
+ /* .show {
+    position:fixed;
+    left:0;
+    width:250px;
+    height:100%;
+    background-color:rgba(49,70,73);
+
+
+} */
+
+
+
+
+
+  /********** Large devices only lg**********/ 
+@media (min-width: 992px) { 
+   #logo-outer {
+       margin-left:40px;
+       }
+   }
+#sidenavlogo {
+    display:none;
+}
+
+
+
+/********** Medium devices only md **********/ 
+@media (min-width: 768px) and (max-width: 991px) { 
+    #inner p {
+        width:65vw;
+    }
+    #some {
+        width:100%;
+    
+    }
+    #navbarSupportedContent {
+        /* position:fixed; */
+        position:absolute;
+        left:0;
+        width:250px;
+        height:1000%;
+        background-color:rgba(49,70,73);
+    
+       }
+       #navbarSupportedContent  ul {
+          margin-top: 350%;
+        
+        
+       }
+       #navbarSupportedContent li {
+        border-bottom: solid 1px white;
+        width:100%;
+        border-radius:0px;
+
+}
+
+
+
+/********** small devices only **********/ 
+@media (min-width: 576px) and (max-width: 767px) { 
+   #inner p {
+       width:75vw;
+   }
+   #navbarSupportedContent {
+    /* position:fixed; */
+    position:absolute;
+    left:0;
+    width:250px;
+    height:1000%;
+    background-color:rgba(49,70,73);
+
+   }
+   #navbarSupportedContent  ul {
+      margin-top: 350%;
+    
+    
+   }
+   #navbarSupportedContent  ul .btn-5 {
+    
+  color:rgb(220,179,116);
+  
+ }
+
+ #navbarSupportedContent  ul .btn-5:hover {
+    
+    color:rgb(220,179,116)!important;
+    
+   }
+
+   #navbarSupportedContent li {
+       border-bottom: solid 1px white;
+       width:100%;
+       border-radius:0px;
+      
+   }
+   #sidenavlogo {
+       margin-top:400%;
+   }
+
+}
+
+
+
+
+/*********** Extra small devices only **********/ 
+@media (max-width: 575px) { 
+  #inner p {
+      width:90vw;
+  }
+
+    #navbarSupportedContent {
+        position:absolute;
+        left:0;
+        width:250px;       
+        height:1000%;
+        background-color:rgba(49,70,73);
+
+    }
+     #navbarSupportedContent  ul {
+         margin-top: 350%;
+ 
+ 
+      }
+     #navbarSupportedContent li {
+    border-bottom: solid 1px white;
+    width:100%;
+    border-radius:0px;
+    }
+}
