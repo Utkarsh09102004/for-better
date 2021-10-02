@@ -1119,11 +1119,18 @@ width:fit-content;
  
   #right {
     background-color: rgb(49,70,73);
+    padding-right:0px;
+    padding-left:0px!important;
+    overflow-x:hidden;
     
   }
   .direct-contact-container {
     background-color: rgb(49,70,73);
     margin:auto 0;
+    max-width:350px;
+    padding-left:0px;
+    overflow-x:hidden;
+    
   }
   .right_hr {
     display:none;
