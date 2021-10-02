@@ -1,3 +1,6 @@
+html {
+  overflow-x: hidden;
+}
 body {
     font-family: 'Rajdhani', sans-serif;
     overflow-x: hidden;
@@ -1119,18 +1122,14 @@ width:fit-content;
  
   #right {
     background-color: rgb(49,70,73);
-    padding-right:0px;
-    padding-left:0px!important;
-    overflow-x:hidden;
+    padding-left:45px;
+  
     
   }
   .direct-contact-container {
     background-color: rgb(49,70,73);
     margin:auto 0;
-    max-width:350px;
-    padding-left:0px;
-    overflow-x:hidden;
-    
+   
   }
   .right_hr {
     display:none;
@@ -1166,6 +1165,13 @@ width:fit-content;
     font-size:20px;
     letter-spacing: 1.2px;
   }
+  #mce-EMAIL {
+    width: 250px!important;
+  }
+  .mc-field-group {
+    margin:0!important;
+  }
+
   
 
 }
