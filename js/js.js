@@ -144,7 +144,7 @@ let selectHeader = document.getElementById('header')
   
     const logoScrolled = () => {
       if (window.scrollY > 100) {
-        selectlogo.innerHTML="<img src='logos/fb-logo(sub).jpg' id='trans-logo' style='border-radius:0; width:100px; height:100px; visibility:visible'></img>"
+        selectlogo.innerHTML="<img src='logos/fb-logo(sub).jpg' id='trans-logo' style='border-radius:0; width:70px; height:70px; visibility:visible'></img>"
       } else {
         selectlogo.innerHTML="<img src='logos/logo(no-subtext).png' id='trans-logo'>"
       }

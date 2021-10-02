@@ -574,6 +574,15 @@ input, button, select, textarea {
 /* *****right footer**** */
 #right {
   background-color:rgb(233,233,233);
+  position:relative;
+ 
+
+}
+
+.list-item svg {
+  margin-right:-18px;
+  margin-left:-13px;
+  
 }
 
 
@@ -595,6 +604,65 @@ input, button, select, textarea {
   margin:15px;
   color:rgb(134,142,154);
 }
+
+
+.direct-contact-container {
+  min-width: 325px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+  line-height:34px;
+}
+
+.list-item {
+  line-height: 5;
+  color: rgba(0, 0, 0, 0.527);
+}
+
+.contact-text {
+  font:  20px 'rajdhani', sans-serif;
+  letter-spacing: 2.4px;
+  color: black;
+}
+
+.place {
+  margin-left: 29px;
+}
+
+.phone {
+  margin-left: 29px;
+}
+
+.gmail {
+  margin-left:29px;
+}
+.instagram{
+  margin-left:29px;
+}
+.list-item a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.list-item a:hover {
+  color: rgb(220,179,116);
+  text-decoration: none;
+}
+
+
+
+.right_hr {
+  border-color: rgba(255,255,255,.6);
+  
+}
+/* footer {
+  
+} */
 
 
 
@@ -691,12 +759,15 @@ input, button, select, textarea {
   margin-top:70px;
 }
 #mc_embed_signup h2{
-font-size:1.4em;
+font-size:1.7em;
 color:white;
 /* font-family:Comic */
-font-weight: lighter;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+/* font-weight: lighter; */
+/* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 
+}
+input {
+  color: -internal-light-dark(black, black);
 }
 
 
@@ -709,6 +780,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
 #sidenavlogo {
     visibility:hidden;
+    position:absolute;
 }
 .board {
     display:flex;
@@ -777,6 +849,17 @@ width:fit-content;
 #send {
   width: 6%;
 }
+#right div:nth-child(1) {
+  position:absolute; 
+  
+  top:50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}   
+.hr_forfooter {
+  display:none;
+}
 
 
 
@@ -814,6 +897,7 @@ width:fit-content;
     visibility:visible;
     margin-bottom:40px;
     margin-left:70px;
+  
     
 }
 .margin-setter {
@@ -839,6 +923,17 @@ width:fit-content;
 }
 #send {
   width: 8%;
+}
+#right div:nth-child(1) {
+  position:absolute; 
+  
+  top:50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}   
+.hr_forfooter {
+  display:none;
 }
 
 
@@ -870,6 +965,7 @@ width:fit-content;
   color:rgb(220,179,116);
   
  }
+
 
  #navbarSupportedContent  ul .btn-5:hover {
     
@@ -913,6 +1009,17 @@ width:fit-content;
     }
     #send {
       width: 8%;
+    }
+    #right div:nth-child(1) {
+      position:absolute; 
+      
+      top:50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }   
+    .hr_forfooter {
+      display:none;
     }
   
 }
@@ -1004,6 +1111,53 @@ width:fit-content;
   }
   #send {
     width: 14%;
+  }
+
+  #left {
+    display:none;
+  }
+ 
+  #right {
+    background-color: rgb(49,70,73);
+    padding-left:100px;
+  }
+  .direct-contact-container {
+    background-color: rgb(49,70,73);
+    margin:auto 0;
+  }
+  .right_hr {
+    display:none;
+  }
+  .list-item a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  .list-item {
+    line-height: 5;
+    color: white;
+  }
+  .contact-text {
+    color:white;
+  }
+  .hr_forfooter {
+    width:70%; 
+    margin: auto; 
+    color:white;
+    height:10px;
+   border:20px;
+   border-color:white;
+   margin-bottom:35px;
+   margin-top:35px;
+    
+
+  }
+  #forfooter{
+    background-color:rgb(49,70,73);
+  }
+  #mc_embed_signup h2 {
+    font-size:20px;
+    letter-spacing: 1.2px;
   }
 
 }
