@@ -1119,7 +1119,7 @@ width:fit-content;
  
   #right {
     background-color: rgb(49,70,73);
-    padding-left:100px;
+    
   }
   .direct-contact-container {
     background-color: rgb(49,70,73);
@@ -1159,5 +1159,6 @@ width:fit-content;
     font-size:20px;
     letter-spacing: 1.2px;
   }
+  
 
 }
